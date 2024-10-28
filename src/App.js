@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import DisasterResponseApp from './components/data';
+import LoginSignup from './components/loginSignup/loginSignup';
 
 function App() {
   return (
-    <React.StrictMode>
-      <DisasterResponseApp />
-    </React.StrictMode>
+    <LoginSignup />
   );
 }
 
